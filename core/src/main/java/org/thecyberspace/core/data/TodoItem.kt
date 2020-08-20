@@ -5,5 +5,5 @@ data class TodoItem(
     var content:String,
     var creationTime:Long,
     var updateTime:Long,
-    var id:Long = 0
+    var id:Long = 0L
 )
